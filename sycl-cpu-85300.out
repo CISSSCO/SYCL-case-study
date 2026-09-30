@@ -1,0 +1,84 @@
+==========================================
+SLURM_CLUSTER_NAME = rudra20pf-hpc
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 85300
+SLURM_JOB_NAME = sycl-cpu
+SLURM_JOB_NODELIST = cbhm0056
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 80014
+SLURM_JOB_PARTITION = debug
+SLURM_TASK_PID = 2316399
+SLURM_SUBMIT_DIR = /home/apps/softwares/sycl-stack/test
+SLURM_CPUS_ON_NODE = 48
+SLURM_NTASKS = 1
+SLURM_TASK_PID = 2316399
+==========================================
+
+============================================================
+       Custom SYCL + CUDA + MPI Environment Loaded
+============================================================
+
+Installation:
+  SYCL_STACK      = /home/apps/softwares/sycl-stack
+  SYCL_ROOT       = /home/apps/softwares/sycl-stack/install/llvm
+  MPI_ROOT        = /home/apps/softwares/sycl-stack/install/mpich
+  CUDA_HOME       = /home/apps/spack/opt/spack/linux-cascadelake/cuda-13.1.1-fqqyj4heehd2l44w4i6kspr7dbnmdvgi
+
+SYCL Compiler:
+  clang           = /home/apps/softwares/sycl-stack/install/llvm/bin/clang
+  clang++         = /home/apps/softwares/sycl-stack/install/llvm/bin/clang++
+  sycl-ls         = /home/apps/softwares/sycl-stack/install/llvm/bin/sycl-ls
+
+CUDA:
+  nvcc            = /home/apps/spack/opt/spack/linux-cascadelake/cuda-13.1.1-fqqyj4heehd2l44w4i6kspr7dbnmdvgi/bin/nvcc
+
+MPI:
+  mpicc           = /home/apps/softwares/sycl-stack/install/mpich/bin/mpicc
+  mpicxx          = /home/apps/softwares/sycl-stack/install/mpich/bin/mpicxx
+  mpiexec         = /home/apps/softwares/sycl-stack/install/mpich/bin/mpiexec
+  mpirun          = /home/apps/softwares/sycl-stack/install/mpich/bin/mpirun
+
+MPI Version:
+MPICH Version:      4.3.2
+MPICH Release date: Mon Oct  6 11:14:20 AM CDT 2025
+MPICH ABI:          17:2:5
+MPICH Device:       ch4:ofi
+MPICH configure:    --prefix=/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/install/mpich CC=/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/install/llvm/bin/clang CXX=/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/install/llvm/bin/clang++ --with-device=ch4:ofi --enable-fortran=no
+MPICH CC:           /scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/install/llvm/bin/clang     -O2
+MPICH CXX:          /scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/install/llvm/bin/clang++   -O2
+MPICH F77:            
+MPICH FC:             
+MPICH features:     threadcomm
+
+SYCL Runtime:
+  CUDA adapter    = /home/apps/softwares/sycl-stack/install/llvm/lib/libur_adapter_cuda.so.0.12.0
+  CPU adapter     = /home/apps/softwares/sycl-stack/install/llvm/lib/libur_adapter_native_cpu.so.0.12.0
+
+MPI Include:
+  /home/apps/softwares/sycl-stack/install/mpich/include
+
+MPI Library:
+  /home/apps/softwares/sycl-stack/install/mpich/lib
+
+============================================================
+ Environment Ready
+============================================================
+
+========================================
+SYCL CPU JOB
+========================================
+cbhm0056
+
+SLURM_JOB_ID      = 85300
+SLURM_CPUS_PER_TASK = 48
+
+SYCL Devices:
+[native_cpu:cpu][native_cpu:0] SYCL_NATIVE_CPU, SYCL Native CPU 0.1 [0.0.0]
+
+Running CPU executable...
+C[0] = 3

@@ -1,0 +1,43 @@
+============================================================
+       Custom SYCL + CUDA + MPI Environment Loaded
+============================================================
+Installation:
+  SYCL_STACK  = /home/apps/softwares/sycl-stack
+  SYCL_ROOT   = /home/apps/softwares/sycl-stack/install/llvm
+  MPI_ROOT    = /home/apps/softwares/sycl-stack/install/mpich
+  CUDA_HOME   = /home/apps/spack/opt/spack/linux-cascadelake/cuda-13.1.1-fqqyj4heehd2l44w4i6kspr7dbnmdvgi
+Compilers:
+  clang       = /home/apps/softwares/sycl-stack/install/llvm/bin/clang
+  clang++     = /home/apps/softwares/sycl-stack/install/llvm/bin/clang++
+  mpicc       = /home/apps/softwares/sycl-stack/install/mpich/bin/mpicc
+  mpicxx      = /home/apps/softwares/sycl-stack/install/mpich/bin/mpicxx
+CUDA:
+  nvcc        = /home/apps/spack/opt/spack/linux-cascadelake/cuda-13.1.1-fqqyj4heehd2l44w4i6kspr7dbnmdvgi/bin/nvcc
+MPI:
+  mpirun      = /home/apps/softwares/sycl-stack/install/mpich/bin/mpirun
+  mpiexec     = /home/apps/softwares/sycl-stack/install/mpich/bin/mpiexec
+SYCL:
+  sycl-ls     = /home/apps/softwares/sycl-stack/install/llvm/bin/sycl-ls
+  Target      = nvptx64-nvidia-cuda
+Manual environment:
+  source /home/apps/softwares/sycl-stack/setup-env.sh
+============================================================
+ Environment Ready
+============================================================
+terminate called after throwing an instance of 'sycl::_V1::exception'
+  what():  The kernel was compiled with -fsycl-id-queries-range=int, but the provided range/offset exceeds the maximum value storable in an int. Either reduce the range/offset or recompile the kernel with -fsycl-id-queries-range=[uint|size_t].
+terminate called after throwing an instance of 'sycl::_V1::exception'
+  what():  The kernel was compiled with -fsycl-id-queries-range=int, but the provided range/offset exceeds the maximum value storable in an int. Either reduce the range/offset or recompile the kernel with -fsycl-id-queries-range=[uint|size_t].
+terminate called after throwing an instance of 'sycl::_V1::exception'
+terminate called after throwing an instance of 'sycl::_V1::exception'
+  what():  The kernel was compiled with -fsycl-id-queries-range=int, but the provided range/offset exceeds the maximum value storable in an int. Either reduce the range/offset or recompile the kernel with -fsycl-id-queries-range=[uint|size_t].
+  what():  The kernel was compiled with -fsycl-id-queries-range=int, but the provided range/offset exceeds the maximum value storable in an int. Either reduce the range/offset or recompile the kernel with -fsycl-id-queries-range=[uint|size_t].
+[proxy:0@cbgpu0021] HYD_pmcd_pmip_control_cmd_cb (/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/src/mpich/src/pm/hydra/proxy/pmip_cb.c:487): assert (!closed) failed
+[proxy:0@cbgpu0021] HYDT_dmxu_poll_wait_for_event (/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/src/mpich/src/pm/hydra/lib/tools/demux/demux_poll.c:76): callback returned error status
+[proxy:0@cbgpu0021] main (/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/src/mpich/src/pm/hydra/proxy/pmip.c:182): demux engine error waiting for event
+srun: error: cbgpu0021: task 0: Exited with exit code 7
+srun: Terminating StepId=85357.0
+[mpiexec@cbgpu0021] HYDT_bscu_wait_for_completion (/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/src/mpich/src/pm/hydra/lib/tools/bootstrap/utils/bscu_wait.c:110): one of the processes terminated badly; aborting
+[mpiexec@cbgpu0021] HYDT_bsci_wait_for_completion (/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/src/mpich/src/pm/hydra/lib/tools/bootstrap/src/bsci_wait.c:21): launcher returned error waiting for completion
+[mpiexec@cbgpu0021] HYD_pmci_wait_for_completion (/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/src/mpich/src/pm/hydra/mpiexec/pmiserv_pmci.c:196): launcher returned error waiting for completion
+[mpiexec@cbgpu0021] main (/scratch/nsmapplication/cdacapp01/rAbhishek/apps/sycl-stack/src/mpich/src/pm/hydra/mpiexec/mpiexec.c:260): process manager error waiting for completion

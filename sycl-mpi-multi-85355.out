@@ -1,0 +1,46 @@
+==========================================
+SLURM_CLUSTER_NAME = rudra20pf-hpc
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 85355
+SLURM_JOB_NAME = sycl-mpi-multi
+SLURM_JOB_NODELIST = cbgpu[0021-0022]
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 80014
+SLURM_JOB_PARTITION = gpu-debug
+SLURM_TASK_PID = 3730583
+SLURM_SUBMIT_DIR = /home/apps/softwares/sycl-stack/test
+SLURM_CPUS_ON_NODE = 16
+SLURM_NTASKS = 4
+SLURM_TASK_PID = 3730583
+==========================================
+Rank 2 | Local rank 0 | GPU 0 | Rank 3 | Local rank 1 | GPU 1 | NVIDIA A100 80GB PCIe
+NVIDIA A100 80GB PCIe
+============================================
+       MPI + SYCL MULTI-NODE GPU
+       MATRIX MULTIPLICATION
+============================================
+
+MPI processes : 4
+Matrix size   : 20000 x 20000
+MPI ranks/node: 2
+GPUs/rank     : 1
+
+Rank 0 | Local rank 0 | GPU Rank 1 | Local rank 1 | GPU 1 | 0 | NVIDIA A100 80GB PCIe
+NVIDIA A100 80GB PCIe
+
+============================================
+                 RESULTS
+============================================
+MPI processes : 4
+MPI ranks/node: 2
+Total GPUs    : 4
+Matrix size   : 20000 x 20000
+Execution time: 1.12 seconds
+Performance   : 14287.80 GFLOPS
+Verification  : PASSED
+============================================

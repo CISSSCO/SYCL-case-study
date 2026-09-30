@@ -1,0 +1,22 @@
+==========================================
+SLURM_CLUSTER_NAME = rudra20pf-hpc
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 85325
+SLURM_JOB_NAME = sycl-mpi-multi
+SLURM_JOB_NODELIST = cbhm[0056-0059]
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 80014
+SLURM_JOB_PARTITION = debug
+SLURM_TASK_PID = 2320695
+SLURM_SUBMIT_DIR = /home/apps/softwares/sycl-stack/test
+SLURM_CPUS_ON_NODE = 32
+SLURM_NTASKS = 16
+SLURM_TASK_PID = 2320695
+==========================================
+MPI ranks : 16
+Global sum : 16000000
