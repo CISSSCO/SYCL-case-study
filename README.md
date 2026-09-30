@@ -1,1 +1,0 @@
-# SYCL-case-study

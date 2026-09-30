@@ -1,0 +1,56 @@
+==========================================
+SLURM_CLUSTER_NAME = rudra20pf-hpc
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 85293
+SLURM_JOB_NAME = sycl-gpu
+SLURM_JOB_NODELIST = cbgpu0091
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 80014
+SLURM_JOB_PARTITION = gpu-debug
+SLURM_TASK_PID = 2572972
+SLURM_SUBMIT_DIR = /home/apps/softwares/sycl-stack/test
+SLURM_CPUS_ON_NODE = 5
+SLURM_NTASKS = 1
+SLURM_TASK_PID = 2572972
+==========================================
+========================================
+SYCL GPU JOB
+========================================
+cbgpu0091
+Wed Sep 30 10:41:57 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 590.48.01              Driver Version: 590.48.01      CUDA Version: 13.1     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA A100 80GB PCIe          Off |   00000000:3B:00.0 Off |                    0 |
+| N/A   57C    P0             78W /  300W |       0MiB /  81920MiB |     24%      Default |
+|                                         |                        |             Disabled |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+
+SLURM_JOB_ID      = 85293
+SLURM_CPUS_PER_TASK = 
+
+SYCL Devices:
+[cuda:gpu][cuda:0] NVIDIA CUDA BACKEND, NVIDIA A100 80GB PCIe 8.0 [CUDA 13.1]
+[native_cpu:cpu][native_cpu:0] SYCL_NATIVE_CPU, SYCL Native CPU 0.1 [0.0.0]
+
+Running GPU executable...
+Device : NVIDIA A100 80GB PCIe
+Vendor : NVIDIA Corporation
+Driver : CUDA 13.1

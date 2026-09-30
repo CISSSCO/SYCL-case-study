@@ -1,0 +1,21 @@
+/bin/bash: warning: setlocale: LC_ALL: cannot change locale (en_US.utf8): No such file or directory
+Lmod has detected the following error: The following module(s) are unknown: "syc/cpu_gpu"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "syc/cpu_gpu"
+
+Also make sure that all modulefiles written in TCL start with the string #%Module
+
+
+
+Lmod has detected the following error: The following module(s) are unknown: "syc/cpu_gpu"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "syc/cpu_gpu"
+
+Also make sure that all modulefiles written in TCL start with the string #%Module
+
+
+

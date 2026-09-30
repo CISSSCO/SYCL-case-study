@@ -1,0 +1,26 @@
+============================================================
+       Custom SYCL + CUDA + MPI Environment Loaded
+============================================================
+Installation:
+  SYCL_STACK  = /home/apps/softwares/sycl-stack
+  SYCL_ROOT   = /home/apps/softwares/sycl-stack/install/llvm
+  MPI_ROOT    = /home/apps/softwares/sycl-stack/install/mpich
+  CUDA_HOME   = /home/apps/spack/opt/spack/linux-cascadelake/cuda-13.1.1-fqqyj4heehd2l44w4i6kspr7dbnmdvgi
+Compilers:
+  clang       = /home/apps/softwares/sycl-stack/install/llvm/bin/clang
+  clang++     = /home/apps/softwares/sycl-stack/install/llvm/bin/clang++
+  mpicc       = /home/apps/softwares/sycl-stack/install/mpich/bin/mpicc
+  mpicxx      = /home/apps/softwares/sycl-stack/install/mpich/bin/mpicxx
+CUDA:
+  nvcc        = /home/apps/spack/opt/spack/linux-cascadelake/cuda-13.1.1-fqqyj4heehd2l44w4i6kspr7dbnmdvgi/bin/nvcc
+MPI:
+  mpirun      = /home/apps/softwares/sycl-stack/install/mpich/bin/mpirun
+  mpiexec     = /home/apps/softwares/sycl-stack/install/mpich/bin/mpiexec
+SYCL:
+  sycl-ls     = /home/apps/softwares/sycl-stack/install/llvm/bin/sycl-ls
+  Target      = nvptx64-nvidia-cuda
+Manual environment:
+  source /home/apps/softwares/sycl-stack/setup-env.sh
+============================================================
+ Environment Ready
+============================================================

@@ -1,0 +1,20 @@
+==========================================
+SLURM_CLUSTER_NAME = rudra20pf-hpc
+SLURM_ARRAY_JOB_ID = 
+SLURM_ARRAY_TASK_ID = 
+SLURM_ARRAY_TASK_COUNT = 
+SLURM_ARRAY_TASK_MAX = 
+SLURM_ARRAY_TASK_MIN = 
+SLURM_JOB_ACCOUNT = cdac
+SLURM_JOB_ID = 85367
+SLURM_JOB_NAME = sycl-mpi-multi
+SLURM_JOB_NODELIST = cbgpu[0021-0022]
+SLURM_JOB_USER = cdacapp01
+SLURM_JOB_UID = 80014
+SLURM_JOB_PARTITION = gpu-debug
+SLURM_TASK_PID = 3735342
+SLURM_SUBMIT_DIR = /home/apps/softwares/sycl-stack/test
+SLURM_CPUS_ON_NODE = 16
+SLURM_NTASKS = 4
+SLURM_TASK_PID = 3735342
+==========================================
